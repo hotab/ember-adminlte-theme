@@ -118,7 +118,7 @@ $(function () {
   $.AdminLTE.init = function(){
 
     //Fix for IE page transitions
-    $("body").removeClass("hold-transition").addClass("sidebar-mini skin-blue");
+    $("body").removeClass("hold-transition").addClass("sidebar-mini");
 
     //Extend options if external options exist
     if (typeof AdminLTEOptions !== "undefined") {
